@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1 class="text-4xl text-center font-bold my-10">
+        Counter: <span id="counter">0</span>
+      </h1>
+      <div class="flex w-50 mx-auto w-52">
+        <button
+          id="increment"
+          class="text-xl font-semibold bg-green-500 px-4 py-2 text-white rounded me-4"
+        >
+          Increment
+        </button>
+
+        <button
+          id="decrement"
+          class="text-xl font-semibold bg-green-500 px-4 py-2 text-white rounded"
+        >
+          Decrement
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
